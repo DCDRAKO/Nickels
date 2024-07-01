@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'BankGothic Md BT';
+    src: url('BankGothicBT-Medium.woff') format('woff');
     line-height: 0.54;
 }
 
@@ -142,11 +143,13 @@ body{
     position: absolute;
     left: 30.5%;
     font-family: 'OCR-B';
+    src: url('OCR-B.woff') format('woff');
 }
 .details-text{
     position: absolute;
     bottom: 0;
     font-family: 'OCR-B';
+    src: url('OCR-B.woff') format('woff');
     font-size: 24px;
     font-weight: normal;
     font-style: normal;
