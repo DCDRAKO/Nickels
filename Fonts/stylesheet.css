@@ -1,15 +1,15 @@
 @font-face {
-    font-family: 'OCR-B';
-    src: url('OCR-B.woff') format('woff');
-    font-weight: normal;
+    font-family: 'BankGothic Md BT';
+    src: url('BankGothicBT-Medium.woff2') format('woff2');
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'BankGothic Md BT';
-    src: url('BankGothicBT-Medium.woff') format('woff');
-    font-weight: 500;
+    font-family: 'OCR-B';
+    src: url('OCR-B.woff2') format('woff2');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
