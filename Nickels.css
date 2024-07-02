@@ -284,9 +284,9 @@ body{
 
 @font-face {
     font-family: 'BankGothic Md BT';
-    src: url('Fonts/BankGothicBT-Medium.woff2') format('woff2');
+    src: url('Fonts/BankGothicMdBT.ttf');
 }
 @font-face {
     font-family: 'OCR-B';
-    src: url('Fonts/OCR-B.woff2') format('woff2');
+    src: url('Fonts/OCR-B.otf');
 }   
