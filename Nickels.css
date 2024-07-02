@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'BankGothic Md BT';
-    src: url('Fonts/BankGothicBT-Medium.woff2') format('woff2');
     line-height: 0.54;
 }
 
@@ -143,13 +142,11 @@ body{
     position: absolute;
     left: 30.5%;
     font-family: 'OCR-B';
-    src: url('Fonts/OCR-B.woff2') format('woff2');
 }
 .details-text{
     position: absolute;
     bottom: 0;
     font-family: 'OCR-B';
-    src: url('Fonts/OCR-B.woff2') format('woff2');
     font-size: 24px;
     font-weight: normal;
     font-style: normal;
@@ -280,3 +277,16 @@ body{
     }
     
 }
+
+/*--------------------------------------------------------------
+--------------------------------FONTS-----------------------
+--------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'BankGothic Md BT';
+    src: url('Fonts/BankGothicBT-Medium.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'OCR-B';
+    src: url('Fonts/OCR-B.woff2') format('woff2');
+}   
