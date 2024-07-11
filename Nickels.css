@@ -6,6 +6,7 @@
     line-height: 0.54;
 }
 
+
 body{
     display: flex;
     justify-content: center;
@@ -50,15 +51,14 @@ body{
 .character{
     display: flex;
     justify-content: center;
-    /*background-color: aqua; */
+
 
 }
 
 .character__image{
     position: absolute;
     z-index: 60;
-    height: 735px;
-    width: 490
+    height: 80%;
 }
 
 .text{
@@ -141,11 +141,12 @@ body{
 .details__nickname{
     position: absolute;
     left: 30.5%;
+    top:-8%;
     font-family: 'OCR-B';
 }
 .details-text{
     position: absolute;
-    bottom: 0;
+    bottom: 21%;
     font-family: 'OCR-B';
     font-size: 24px;
     font-weight: normal;
@@ -257,11 +258,12 @@ body{
     50% {border-color: transparent;}
 }
 
+
 /*--------------------------------------------------------------
 --------------------------------RESPONSIVE-----------------------
 --------------------------------------------------------------*/
 
-@media screen and (min-height:1080px) {
+@media screen and (min-height:990px) and (max-height:1080px) {
 
 
     /* .tex{
@@ -269,11 +271,22 @@ body{
     } */
 
     .character__image{
-        scale: 1.13;
+        scale: 1;
     }
 
     .text__shapes{
         scale: 1.13;
+    }
+
+
+    .details__nickname{
+        top:0%;
+ 
+    }
+
+    .details-text{
+        bottom: 0;
+
     }
     
 }
