@@ -73,7 +73,12 @@ body{
     display: block;
     font-size: 270px;
     color: #f38d11;
-    z-index: 50; 
+    z-index: 50;
+    position: absolute;
+    
+    
+
+    animation: move 1s steps(1);
 
     /* display: block;
     width: 6.6ch;
@@ -113,9 +118,11 @@ body{
 
 }
 
+.stroke{
+    position: relative;
+    padding-top: 145.8px;
+}
 .text__stroke{
-
-    position: static;
     font-size: 270px;
     color: #f29f0500;
     -webkit-text-stroke: 3px #00518473;
@@ -258,6 +265,34 @@ body{
     50% {border-color: transparent;}
 }
 
+@keyframes move {
+
+    0%{
+        color: #f38d11;
+        bottom: 6%;
+
+    }
+    20%{
+        color: #f38d11;
+        bottom: 21.5%;
+    } 
+    40%{
+        color: #f38d11;
+        bottom: 37.5%;
+    } 
+    60%{
+        color: #f38d11;
+        bottom: 53.3%;
+    } 
+    80%{
+        color: #f38d11;
+        bottom: 68.8%;
+        
+        
+
+    }
+    
+}
 
 /*--------------------------------------------------------------
 --------------------------------RESPONSIVE-----------------------
