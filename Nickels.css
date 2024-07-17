@@ -52,6 +52,8 @@ body{
     display: flex;
     justify-content: center;
 
+    
+
 
 }
 
@@ -59,6 +61,7 @@ body{
     position: absolute;
     z-index: 60;
     height: 80%;
+    
 }
 
 .text{
@@ -79,6 +82,7 @@ body{
     
 
     animation: move 1s steps(1);
+    
 
     /* display: block;
     width: 6.6ch;
@@ -127,6 +131,19 @@ body{
     color: #f29f0500;
     -webkit-text-stroke: 3px #00518473;
     z-index: 20;
+}
+
+.text__stroke:nth-child(1){
+    animation: opacity 0.8s steps(1);
+}
+.text__stroke:nth-child(2){
+    animation: opacity 0.6s steps(1);
+}
+.text__stroke:nth-child(3){
+    animation: opacity 0.4s steps(1);
+}
+.text__stroke:nth-child(4){
+    animation: opacity 0.2s steps(1);
 }
 
 .details{
@@ -261,8 +278,13 @@ body{
     from { width: 0 }
 }
 
-@keyframes blink {
-    50% {border-color: transparent;}
+@keyframes opacity {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 @keyframes move {
@@ -287,9 +309,6 @@ body{
     80%{
         color: #f38d11;
         bottom: 68.8%;
-        
-        
-
     }
     
 }
@@ -325,6 +344,8 @@ body{
     }
     
 }
+
+
 
 /*--------------------------------------------------------------
 --------------------------------FONTS-----------------------
